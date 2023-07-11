@@ -2,7 +2,6 @@
 import Mentee from './components/Mentee';
 import Mentor from './components/Mentor';
 import Opportunities from './components/Opportunities';
-import Main from './components/main';
 import Selectlist from './components/selectList';
 import { Routes, Route } from "react-router-dom"
 import Requests from './components/Requests';
