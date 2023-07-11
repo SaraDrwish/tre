@@ -1,11 +1,11 @@
 
-import Mentee from './Componets/Mentee';
-import Mentor from './Componets/Mentor';
-import Opportunities from './Componets/Opportunities';
-import Main from './Componets/main';
-import Selectlist from './Componets/selectList';
+import Mentee from './components/Mentee';
+import Mentor from './components/Mentor';
+import Opportunities from './components/Opportunities';
+import Main from './components/main';
+import Selectlist from './components/selectList';
 import { Routes, Route } from "react-router-dom"
-import Requests from './Componets/Requests';
+import Requests from './components/Requests';
 function App() {
   return (
     <>
