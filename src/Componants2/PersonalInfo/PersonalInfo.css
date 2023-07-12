@@ -68,6 +68,15 @@
     -moz-border-radius: 4rem;
     -ms-border-radius: 4rem;
     -o-border-radius: 4rem;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    font-weight: 400;
+}
+.PersonalInfo .mdl-box-personal button:hover {
+    background-color: #e6cd55;
 }
 
 /* ------------------------------------ */
@@ -154,24 +163,59 @@ padding: 0;
     width: 60%;
     padding: 1% 0;
  }
+  .form-per-med-box-btm3 input {
+      margin: 2% 0;
+      /* background-color: aqua; */
+  }
+ .input-box{
+    /* background-color: rgb(255, 213, 255); */
+    width: 90%;
+    margin: 4%;
+  }
+
+ input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+  .input-box input {
+      /* background-color: rgb(190, 123, 64); */
+      width: 70%;
+ }
+
+  .icon-box{
+    /* background-color: rgb(255, 177, 163); */
+    width: 40%;
+    margin: auto;
+    padding-left: 6%;
+  }
+  .input-box .icon{
+  fill: var(--Secondary);
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+ .input-box .icon:hover {
+fill: var(--Primary);
+ }
 .form-per-med-left-2 , .form-per-med-left-3 {
    padding: 1% 0;
     /* background-color: rgb(141, 96, 38); */
     width: 40%;
- 
  }
 .form-per-med-med-3 , .form-per-med-right-3{
-    width: 15%;
+    width: 20%;
+    /* background-color: rgb(0, 194, 194); */
  }
 
 .form-per-med-med-3,
 .form-per-med-right-3 {
     margin: 2%;
 }
-.form-per-med-box-btm3 input{
-    margin: 2% 0;
-    /* background-color: aqua; */
-}
+
 .form-per-med-left-3 label , .form-per-med-left-3 input , 
 .form-per-med-med-3 input , .form-per-med-med-3 label
 .form-per-med-right-3 input , .form-per-med-right-3 label

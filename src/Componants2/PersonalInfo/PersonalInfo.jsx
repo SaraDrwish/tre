@@ -2,7 +2,9 @@ import React from 'react'
 import "./PersonalInfo.css"
 import SidaNav2 from '../SideNav2/SidaNav2'
 import hero from "../../assets/images/colored_background.jpg"
-import Exp from '@iconscout/react-unicons/icons/uil-bag'
+import Trush from '@iconscout/react-unicons/icons/uil-trash'
+import Arr from '@iconscout/react-unicons/icons/uil-arrow-circle-up'
+import Add from '@iconscout/react-unicons/icons/uil-plus-circle'
 
 
 function PersonalInfo() {
@@ -70,23 +72,45 @@ function PersonalInfo() {
                        
                 
                                 <div className="form-per-med-box-btm3 d-sm-flex d-block w-100 justify-content-between align-items-center ">
-                                     <div className="form-per-med-left-3 flex-column d-flex m-1   ">
+                                     <div className="form-per-med-left-3 flex-column d-flex  ">
                                          <label htmlFor="" className='W-100'>experience</label>
                                          <input type="text" placeholder='software engeneer at eif' />
                                          <input type="text" placeholder='software engeneer at eit' />
                                          <input type="text" placeholder='software engeneer at eee' />
                                      </div> {/** end form-per-med-left-2 */}
-                                     <div className="form-per-med-med-3 flex-column d-flex m-1  ">
+                                     <div className="form-per-med-med-3 flex-column d-flex  ">
                                           <label htmlFor="" className='W-100'>from</label>
-                                          <input type="number" placeholder='2014' />
-                                          <input type="number" placeholder='2011' />
-                                          <input type="number" placeholder='2010' />
+                                          <div className="input-box d-flex  " >
+                                             <input type="number" placeholder='2017' />
+                                          </div> {/*** end input-box */}
+                                          <div className="input-box d-flex  " >
+                                              <input type="number" placeholder='2013' />
+                                          </div> {/*** end input-box */}
+                                          <div className="input-box  d-flex " >
+                                            <input type="number" placeholder='2014' />
+                                          </div> {/*** end input-box */}
                                      </div> {/** end form-per-med-left-3 */}
-                                     <div className="form-per-med-right-3 d-flex flex-column m-1">
-                                          <label htmlFor="" className='W-100'>to</label>
+                                     <div className="form-per-med-right-3 d-flex flex-column   ">
+                                          <label htmlFor="" className='W-100'>to</label> 
+                                          <div className="input-box d-flex  " >
                                           <input type="number" placeholder='2018' />
-                                          <input type="number" placeholder='2016' />
-                                          <input type="number" placeholder='2017' />
+                                              <div className="icon-box">
+                                                <Trush className="icon" />
+                                              </div> {/** end icon-box */}
+                                          </div> {/*** end input-box */}
+                                          <div className="input-box d-flex  " >
+                                              <input type="number" placeholder='2016' />
+                                              <div className="icon-box">
+                                                <Trush className="icon" />
+                                              </div> {/** end icon-box */}
+                                          </div> {/*** end input-box */}
+                                          <div className="input-box  d-flex " >
+                                            <input type="number" placeholder='2017' />
+                                            <div className="icon-box">
+                                              <Trush className="icon" /> <Add className="icon" />
+                                            </div>  {/** end icon-box */}
+                                          </div> {/*** end input-box */}
+                                        
                                     </div> {/** end form-per-med-right-3 */}
                                  
                                 </div> {/** end form-per-med-box-btm3 */}
@@ -109,10 +133,10 @@ function PersonalInfo() {
 
              </div> {/** end container-box */}
           
-              <div className="right-pernav d-sm-flex d-none ">
+              {/* <div className="right-pernav d-sm-flex d-none ">
                   <input className='border-0 p-2' type="text" />
                   <button className='border-0 p-2'>send</button>
-              </div> 
+              </div>  */}
 
    </div>  /** end PersonalInfo */ 
 
